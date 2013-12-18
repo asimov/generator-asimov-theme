@@ -1,0 +1,20 @@
+
+$settings: set-default((
+    "<%= themeName %>": (
+        "base": (
+            "padding": 15px,
+        ),
+        "variation": (
+            "success": (
+                "description": "Woohoo! You've done something!",
+                "background": mix(white, green, 70%),
+                "border": 1px solid green,
+            ),
+            "failure": (
+                "description": "Aww! You've done nothing!",
+                "background": mix(white, red, 70%),
+                "border": 5px solid red,
+            ),
+        ),
+    ),
+)) !global;

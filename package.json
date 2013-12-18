@@ -1,0 +1,48 @@
+{
+  "name": "generator-asimov-theme",
+  "version": "0.0.25",
+  "description": "A generator for Yeoman",
+  "keywords": [
+    "yeoman-generator"
+  ],
+  "homepage": "https://github.com/asimov/generator-asimov-theme",
+  "bugs": "https://github.com/asimov/generator-asimov-theme/issues",
+  "author": {
+    "name": "",
+    "email": "",
+    "url": "https://github.com/asimov"
+  },
+  "main": "app/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/asimov/generator-asimov-theme.git"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "dependencies": {
+    "yeoman-generator": "0.14.0",
+    "chdir": "0.0.0",
+    "underscore.string": "2.3.3"
+  },
+  "devDependencies": {
+    "mocha": "1.14.0",
+    "grunt-conventional-changelog": "1.0.0",
+    "matchdep": "0.3.0",
+    "grunt": "0.4.2",
+    "grunt-bump": "0.0.11",
+    "grunt-release": "~0.6.0"
+  },
+  "peerDependencies": {
+    "yo": ">=1.0.0"
+  },
+  "engines": {
+    "node": ">=0.8.0",
+    "npm": ">=1.2.10"
+  },
+  "licenses": [
+    {
+      "type": "MIT"
+    }
+  ]
+}

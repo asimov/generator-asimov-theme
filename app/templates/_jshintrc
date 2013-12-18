@@ -1,0 +1,29 @@
+{
+    "predef": [
+        "asimov",
+        "require",
+        "define",
+        "module",
+        "exports"
+    ],
+    "browser": true,
+    "bitwise": true,
+    "camelcase": true,
+    "curly": true,
+    "eqeqeq": true,
+    "immed": true,
+    "latedef": true,
+    "newcap": true,
+    "noarg": true,
+    "quotmark": "single",
+    "regexp": true,
+    "undef": true,
+    "strict": true,
+    "trailing": true,
+    "smarttabs": true,
+    "jquery": true<% if (ie8 || contrib || strict) { %>,
+    "es3": true<% } %><% if (contrib || strict) { %>,
+    "onevar": true,
+    "maxcomplexity": 5,
+    "maxlen": 80<% } %>
+}

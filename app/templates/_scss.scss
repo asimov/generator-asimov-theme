@@ -1,0 +1,7 @@
+@import "asimov/settings";
+@import "<%= themeName %>/settings";
+
+@import "asimov/asimov";
+
+// MANIFEST
+@import "<%= themeName %>/manifest";

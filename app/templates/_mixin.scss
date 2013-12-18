@@ -1,0 +1,21 @@
+@import "<%= themeName %>/functions/<%= themeName %>";
+
+@mixin <%= themeName %>($name:"base", $base:true) {
+    $properties: if(type-of($name) == map, $name, ());
+
+    @if $base {
+        $properties: if(length($properties) > 0, $properties, get("<%= themeName %>/base") or ());
+        display: inline-block;
+        text-align: center;
+        width: auto;
+        background-clip: padding-box;
+    } @else if type-of($name) != map {
+        $properties: map-merge($properties, get("<%= themeName %>/variation/#{$name}") or ());
+    }
+
+    color: get("color", $properties);
+    padding: get("padding", $properties);
+    background: get("background", $properties);
+    border: get("border", $properties);
+    border-radius: get("border-radius", $properties);
+}

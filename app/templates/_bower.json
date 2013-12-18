@@ -1,0 +1,22 @@
+{
+  "name": "asimov-theme-<%= themeName %>",
+  "version": "0.0.0",
+  "description": "<%= description %>",
+  "keywords": [
+    "asimov",
+    "theme"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "asimov-core": "git@github.com:asimov/asimov-core.git"
+  }<% if (private) { %>,
+  "private": true<% } %>
+}
+

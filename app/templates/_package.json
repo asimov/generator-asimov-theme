@@ -1,0 +1,17 @@
+{
+  "name": "asimov-theme-<%= themeName %>",
+  "version": "0.0.0",
+  "description": "<%= description %>",
+  "keywords": [
+    "asimov"
+  ],
+  "readmeFilename": "README.md",
+  "dependencies": {},
+  "devDependencies": {
+    "grunt": "~0.4.2"
+  },
+  "engines": {
+    "node": ">=0.8.0"
+  },
+  "license": "MIT"
+}
